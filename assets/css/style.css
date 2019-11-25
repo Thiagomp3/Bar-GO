@@ -27,7 +27,11 @@
  	width: 5rem;
 }
 .titulo_bar {
+
 	 font-family: 'Patua One', cursive;
+	 font-size: 2rem;
+	 margin-top: 0.5rem;
+	 color: red;
 	 
 }
 .header {
@@ -36,7 +40,7 @@
 	flex-direction: row-reverse;
 	padding-top: 1rem;
 	align-content: center;
-	background-color: blue;
+	background-color: green;
 	padding-bottom: 1rem;
 }
 .subtitulo {
@@ -44,4 +48,64 @@
 	font-family: 'Fjalla One', sans-serif;
 	padding: 2rem 2rem 2rem ;
 	padding-bottom: 0rem;
+}
+.filtro {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin: 2rem;
+	border-style: solid;
+	border-width: 0.2rem;
+	border-color: red;
+	border-radius: 2rem;
+
+}
+.corpo {
+	
+	font-size: 2rem;
+	font-family: 'Fjalla One', sans-serif;
+}
+.cada_bar {
+	display: grid;
+	grid-template-rows: 2fr 1fr;
+	align-items: center;
+	justify-content: center;
+}
+.nome_bar {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.7rem;
+	padding-top: 0.3rem;
+	text-align: center;
+}
+.imagem_principal {
+	height: 10rem;
+ 	width: 10rem;
+ 	margin: 1rem;
+
+}
+.estrutura_descricao_bares {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.estrutura_imagem_bares {
+	display: grid;
+	grid-template-rows: 0.1fr 0.3fr;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+.imagem_grande_bares {
+
+	height: 20rem;
+ 	width: 20rem;
+ 	border-radius: 2rem;
+ 	border-style: solid;
+ 	border-width: 0.8rem;
+ 	border-color: green;
+ 	margin: 1rem;
+}
+.descricao {
+
 }
