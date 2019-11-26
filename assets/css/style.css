@@ -1,3 +1,6 @@
+.pagina {
+	background-color: lightgoldenrodyellow;
+}
 .div_bar {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -29,9 +32,9 @@
 .titulo_bar {
 
 	 font-family: 'Patua One', cursive;
-	 font-size: 2rem;
-	 margin-top: 0.5rem;
-	 color: red;
+	 font-size: 1.5rem;
+
+	 color:black;
 	 
 }
 .header {
@@ -40,7 +43,7 @@
 	flex-direction: row-reverse;
 	padding-top: 1rem;
 	align-content: center;
-	background-color: green;
+
 	padding-bottom: 1rem;
 }
 .subtitulo {
@@ -56,7 +59,7 @@
 	margin: 2rem;
 	border-style: solid;
 	border-width: 0.2rem;
-	border-color: red;
+	
 	border-radius: 2rem;
 
 }
@@ -71,15 +74,21 @@
 	align-items: center;
 	justify-content: center;
 }
+
+.cada_bar > a {
+	text-decoration: none;
+}
+
 .nome_bar {
 	font-family: 'Roboto', sans-serif;
 	font-size: 0.7rem;
 	padding-top: 0.3rem;
 	text-align: center;
+	color: black;
 }
 .imagem_principal {
-	height: 10rem;
- 	width: 10rem;
+	height: 7rem;
+ 	width: 7rem;
  	margin: 1rem;
 
 }
@@ -98,14 +107,16 @@
 }
 .imagem_grande_bares {
 
-	height: 20rem;
- 	width: 20rem;
- 	border-radius: 2rem;
- 	border-style: solid;
- 	border-width: 0.8rem;
- 	border-color: green;
- 	margin: 1rem;
+	
+ 	
+ 	
 }
 .descricao {
 
+}
+
+.especificacoes{
+	border: solid;
+	align-content: center;
+	justify-content: center;
 }
