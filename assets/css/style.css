@@ -91,7 +91,6 @@
 
 }
 
-
 .corpo {
 	
 	font-size: 2rem;
@@ -110,7 +109,7 @@
 }
 
 .nome_bar {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Fjalla One', sans-serif;
 	font-size: 0.7rem;
 	padding-top: 0.3rem;
 	text-align: center;
@@ -121,7 +120,6 @@
  	width: 5rem;
 	margin: 1rem;
 	padding-top: 3rem;
-	 
 
 }
 .estrutura_descricao_bares {
@@ -150,6 +148,8 @@
 	align-content: center;
 	justify-content: center;
 	font-family: 'Roboto', sans-serif;
+	margin-left: 1rem;
+	margin-right: 1rem;
 	
 	
 }
@@ -158,6 +158,7 @@
 	margin: 1rem;
 	align-content: center;
 	justify-content: center;
+	font-family: 'Patua One', cursive;
 }
 
 .titulo_filtro {
