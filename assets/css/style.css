@@ -73,6 +73,7 @@
 	grid-template-rows: 2fr 1fr;
 	align-items: center;
 	justify-content: center;
+	
 }
 
 .cada_bar > a {
@@ -87,13 +88,15 @@
 	color: black;
 }
 .imagem_principal {
-	height: 7rem;
- 	width: 7rem;
- 	margin: 1rem;
+	height: 5rem;
+ 	width: 5rem;
+	margin: 1rem;
+	padding-top: 3rem;
+	 
 
 }
 .estrutura_descricao_bares {
-	display: grid;
+	display: flex;
 	grid-template-columns: 1fr 1fr;
 }
 .estrutura_imagem_bares {
@@ -106,17 +109,24 @@
 
 }
 .imagem_grande_bares {
-
+	display: flex;
 	
- 	
- 	
+}
+
+.endereco {
+	font-family: 'Roboto', sans-serif;
+	
 }
 .descricao {
-
+	align-content: center;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+	
+	
 }
 
 .especificacoes{
-	border: solid;
+	margin: 1rem;
 	align-content: center;
 	justify-content: center;
 }
@@ -192,7 +202,7 @@
   .active.selected::before {
     display: none;
   }
-}
+
 
 .filtro_regiao {
 	font-family: 'Fjalla One', sans-serif;
