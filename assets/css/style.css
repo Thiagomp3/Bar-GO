@@ -324,4 +324,30 @@
 
 }
 
-	
+.filtros_ativos { 
+	font-size: 1rem;
+	margin-left: 2rem;
+	font-family: 'Patua One', cursive;
+}	
+
+.bar1 {
+	display: inline-flex;
+}
+
+.img_filtrada{
+	margin-top: 2rem;
+	width: 35%;
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+}
+
+.escrita{
+	font-size: 1rem;
+	margin-top: 2.5rem;
+	margin-left: 3rem;
+}
+
+.escrita > a {
+	text-decoration: none;
+	color: black;
+}
